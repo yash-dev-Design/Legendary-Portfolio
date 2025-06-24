@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YashRoyz⚡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="cube.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Merriweather:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home"><strong>Y</strong>ash<strong>R</strong>oyz</a>
+        </div>
+        <div class="nav-controls">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">I'm Social</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="floating-elements">
+            <div class="floating-element">
+                <i class="fas fa-code" style="font-size: 3rem; color: var(--primary);"></i>
+            </div>
+            <div class="floating-element">
+                <i class="fas fa-laptop-code" style="font-size: 2.5rem; color: var(--secondary);"></i>
+            </div>
+            <div class="floating-element">
+                <i class="fas fa-rocket" style="font-size: 2rem; color: var(--accent);"></i>
+            </div>
+        </div>
+        <div class="intro-text">
+            <h1>Hi there, I'm <span style="color: var(--primary);">YashRoyz</span></h1>
+            <p> I'm a <span id="high-light">Front-End Web Developer</span>,<br>
+                Focused on UI/UX, precision, and pixel-perfect design,<br>
+                Creating seamless interfaces with modern tech stack.</p>
+            <a href="#projects" class="cta-btn">
+                <i class="fas fa-eye"></i>
+                View My Work
+            </a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="animate">
+        <h1>Education</h1>
+        <div class="edu-container">
+            <div class="edu-box animate-left">
+                <h3>B.Tech - Vignan Lara Institution Of Technology And Science (ECE)</h3>
+                <p>Vadlamudi, Guntur <strong>2022-2026</strong></p>
+            </div>
+            <div class="edu-box animate-right">
+                <h3>Intermediate - Nehuru Nikethan Jr.collage (MPC)</h3>
+                <p>Bose Road, Tenali <strong>2020-2022</strong></p>
+            </div>
+            <div class="edu-box animate-right">
+                <h3>Secondary Schooling - Sri Chaitanya Techno School</h3>
+                <p>Burripalem Road, Tenali <strong>2017-2020</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="animate">
+        <h1>Skills</h1>
+        <p style="margin-top: -10px;">" Step into the space where I’ve mastered every skill you see in action. "</p>
+        <div class="skills-container">
+            <a href="https://www.w3schools.com/c/c_intro.php" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-code"></i> C Language</span>
+            </a>
+
+            <a href="https://www.geeksforgeeks.org/java/" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+            </a>
+
+            <a href="https://youtu.be/ix9cRaBkVe0?si=d_g49qIaroxOucl9" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+            </a>
+
+            <a href="https://www.dcpehvpm.org/E-Content/BCA/BCA-II/Web%20Technology/the-complete-reference-html-css-fifth-edition.pdf"
+                target="_blank" style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+            </a>
+
+            <a href="https://www.dcpehvpm.org/E-Content/BCA/BCA-II/Web%20Technology/the-complete-reference-html-css-fifth-edition.pdf"
+                target="_blank" style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+            </a>
+
+            <a href="https://youtu.be/EerdGm-ehJQ?si=1Cl7TIgFZuvnIvWv" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+            </a>
+
+            <a href="https://youtu.be/-qfEOE4vtxE?si=viPHhe1y2yCVa4ZM" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+            </a>
+
+            <a href="https://tailwindcss.com/" target="_blank" style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-css3"></i> Tailwind CSS</span>
+            </a>
+
+            <a href="https://youtu.be/RVFAyFWO4go?si=ifsO_YuVOlz1VKRH" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+            </a>
+
+            <a href="https://youtu.be/zZ6vybT1HQs?si=mL2NBEGfReT-N4Rq" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-php"></i> PHP</span>
+            </a>
+
+            <a href="https://youtu.be/wALCw0F8e9M?si=lU5Vc_Lx1EHR2s7q" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+            </a>
+
+            <a href="https://youtu.be/KuQUNHCeKCk?si=IjaoqTYEwdklSZJ_" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+            </a>
+
+            <a href="https://youtu.be/VaJPdtuql8k?si=e76aWwsIb_karqcH" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-node-js"></i> Node.js</span>
+            </a>
+
+            <a href="https://youtu.be/VaJPdtuql8k?si=e76aWwsIb_karqcH" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-js"></i> Express.js</span>
+            </a>
+
+            <a href="https://youtu.be/hrTQipWp6co?si=Da-Y9Y-XAhqWlsO-" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-github"></i> Git</span>
+            </a>
+
+            <a href="https://youtu.be/hrTQipWp6co?si=Da-Y9Y-XAhqWlsO-" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-github"></i> GitHub</span>
+            </a>
+
+            <a href="https://youtu.be/sPmat30SE4k?si=tIOf4Z1N4VLjjSGe" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-server"></i> Vercel</span>
+            </a>
+
+            <a href="https://youtu.be/0P53S34zm44?si=l3M1u1UPKPV20gAZ" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-server"></i> Netlify</span>
+            </a>
+
+            <a href="https://youtu.be/ViRa8DlnyOc?si=M03r0SIbA56pohwR" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-server"></i> Tiiny.host</span>
+            </a>
+
+            <a href="https://youtu.be/FVpEDSlGG5k?si=goMIBZvmhAx9SZfj" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-server"></i> Render</span>
+            </a>
+
+            <a href="https://youtu.be/kbZejnPXyLM?si=pgd-4UWXd97tPK2Y" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+            </a>
+
+            <a href="https://canva.com" target="_blank" style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-paint-brush"></i> Canva</span>
+            </a>
+
+            <a href="https://youtu.be/X7uO7g93rtg?si=oSgJi5yq_-Q5Jh01" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-layer-group"></i> Framer</span>
+            </a>
+
+            <a href="https://youtu.be/c9Wg6Cb_YlU?si=XQqD97b0pIF5Hxgi" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-layer-group"></i> UI/UX Design</span>
+            </a>
+
+            <a href="https://youtu.be/pN92rnO_n5U?si=qZZHq1mllnOrYD90" target="_blank"
+                style="color: #121212; text-decoration: none;">
+                <span class="skill-tag"><i class="fas fa-layer-group"></i> WireFrames</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="animate">
+        <h1>Projects</h1>
+        <div class="projects-container">
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="MagiK_Cuts Salon Website">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">MagiK_Cuts</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">BootStrap</span>
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">API endpoints</span>
+                        <span class="tech-tag">.env files</span>
+                    </div>
+                    <p class="project-desc">Built an full stack saloon web application for pre-bookings and instant
+                        bookings, with
+                        a modern UI/UX Design with advanced
+                        styling and animations. </p>
+                    <a href="https://royz-saloon.netlify.app/" class="project-link" target="_blank"
+                        title="salon Website">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-right">
+                <div class="project-img">
+                    <img src="https://plus.unsplash.com/premium_photo-1681488350342-19084ba8e224?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+                        alt="ecommerce website">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">BlazeShop</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Tailwind CSS</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">API endpoints</span>
+                        <span class="tech-tag">.env files</span>
+                    </div>
+                    <p class="project-desc">Built a fully functional full-stack e-commerce Admin side panel, able to
+                        perform full CRUD operations on the e-commerce website.</p>
+                    <a href="https://blaze-shop.netlify.app/" class="project-link" target="_blank"
+                        title="e-commerce website">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D"
+                        alt="Calculator">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">BlogiVerse</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">PostgreSQL dB</span>
+                        <span class="tech-tag">Web API</span>
+                        <span class="tech-tag">.env files</span>
+                    </div>
+                    <p class="project-desc">Developed a full stack blog website with a user-friendly UI, admin panel,
+                        and CRUD operations using Node.js, Express, and PostgreSQL.</p>
+                    <a href="https://royz-blog.netlify.app/" class="project-link" target="_blank"
+                        title="Kitchen website">
+                        <i class="fas fa-eye"></i>View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-right">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        alt="CosmiCruise Travels">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">CosmiCruise</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">BootStrap</span>
+                        <span class="tech-tag">Web API</span>
+                    </div>
+                    <p class="project-desc">Crafted a modern, visually engaging travels page inspired by a
+                        passion for exploring the world.</p>
+                    <a href="https://royz-travels.netlify.app/" class="project-link" target="_blank"
+                        title="Travels Website">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://plus.unsplash.com/premium_photo-1661433201283-fcb240e88ad4?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D"
+                        alt="Calculator">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Golden Flame</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">AOS Library</span>
+                        <span class="tech-tag">Web API</span>
+                    </div>
+                    <p class="project-desc">A beautifully crafted kitchen website showcasing rich menu, vibrant
+                        dishes, and a smooth user experience. From delivery to catering option, everything is
+                        just a click away.</p>
+                    <a href="https://royz-kitchen.netlify.app/" class="project-link" target="_blank"
+                        title="Kitchen website">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGF0YSUyMHN0cnVjdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="dsa image">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">450 DSA</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">Vite.js</span>
+                        <span class="tech-tag">AOS Library</span>
+                    </div>
+                    <p class="project-desc">Revamped the 450 DSA Cracker website with a sleek, Dynamic visualization
+                        featuring glassmorphism, smooth hover transitions, AOS scroll animations, indicators, and
+                        enhanced UI.</p>
+                    <a href="https://royz-dsa.netlify.app/" class="project-link" target="_blank" title="dsa website">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1626682561113-d1db402cc866?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cXIlMjBjb2RlfGVufDB8MHwwfHx8MA%3D%3D"
+                        alt="Calculator">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">QR Code Generator</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">QR Code API Key</span>
+                    </div>
+                    <p class="project-desc">Developed a dynamic QR code generator web application that supports all
+                        types of URLs and links, including websites, social profiles, contact info, WiFi network, and
+                        custom text.
+                    </p>
+                    <a href="https://royz-qrcode.netlify.app/" class="project-link" target="_blank"
+                        title="qr code generator">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-right">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1707761918029-1295034aa31e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D"
+                        alt="Expense Tracker System db">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Financial Tracker</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">BootStrap</span>
+                        <span class="tech-tag">Tailwind</span>
+                    </div>
+                    <p class="project-desc">
+                    <p class="project-desc">
+                        A dynamic summary table and visual representation
+                        through Multiple Charts Models. Also features previous transactions, budget planner, live value
+                        projections, downloadable reports in multiple formats, along with best UX interface.</p>
+                    <a href="https://royz-expense.netlify.app/" class="project-link" target="_blank"
+                        title="expense tracker Website">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Portfolio Website">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Portfolio</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">BootStrap</span>
+                        <span class="tech-tag">Vite.js</span>
+                        <span class="tech-tag">Spline</span>
+                        <span class="tech-tag">Unsplash</span>
+                    </div>
+                    <p class="project-desc">Crafted with passion on web development showcasing projects, skills and
+                        more. with 3D interactive modules.</p>
+                    <a href="#" class="project-link" target="_blank" title="Portfolio Website">
+                        <i class="fas fa-eye"></i> Currently Viewing</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-right">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="To-Do Manager">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">To-Do Manager</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                    </div>
+                    <p class="project-desc">Built with user friendly interface for managing daily offering top class
+                        Hacker UI interface.</p>
+                    <a href="https://royz-todo.netlify.app/" class="project-link" target="_blank" title="todo Website">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1587145820266-a5951ee6f620?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Calculator">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Calculator</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Tailwind</span>
+                    </div>
+                    <p class="project-desc">Developed with friendly interface and smooth animations for basic
+                        calculations.</p>
+                    <a href="https://royz-calculator.netlify.app/" class="project-link" target="_blank"
+                        title="Calculator">
+                        <i class="fas fa-eye"></i> View Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="ATM Simulator">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">ATM Simulator</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">C Language</span>
+                        <span class="tech-tag">Simulation</span>
+                        <span class="tech-tag">Terminal OverView</span>
+                    </div>
+                    <p class="project-desc">Perform all the operations that an ATM can do with a user-friendly console
+                        interface.</p>
+                </div>
+            </div>
+
+            <div class="project-card animate-right">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Employee Payroll System">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Employee Payroll System</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">C Language</span>
+                        <span class="tech-tag">Simulation</span>
+                        <span class="tech-tag">Terminal OverView</span>
+                    </div>
+                    <p class="project-desc">Integrated all the features that a company should take care of for employee
+                        payroll management.</p>
+                </div>
+            </div>
+
+            <div class="project-card animate-left">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1746842419499-c6ef28c3766a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvc3BpdGFsJTIwbWFuYWdtZW50fGVufDB8fDB8fHww"
+                        alt="Hospital management System">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Hospital management System</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">JAVA</span>
+                        <span class="tech-tag">Simulation</span>
+                        <span class="tech-tag">Terminal OverView</span>
+                    </div>
+                    <p class="project-desc">Includes all the operations of what an hospital managment interface can do.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="animate">
+        <h1>Contact</h1>
+        <div class="contact-container">
+            <div class="social-links">
+                <a href="https://wa.me/+917989552340" target="_blank" class="social-link" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://instagram.com/yashroy9938" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/share/15ZUGuWBXY/" target="_blank" class="social-link"
+                    aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/yash-dev-Design" target="_blank" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yash-370744188" target="_blank" class="social-link"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:mmvyash.143@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"><strong>M.M.V </strong>YashRoyz</div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="copyright">© 2025. All rights reserved.<br>Designed with ♥ by <strong
+                    style="color: var(--secondary);"><a href="#home"
+                        style="text-decoration: none; color: #ff6b35;">Yash_Royz</a></strong> ;)
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
